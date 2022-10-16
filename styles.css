@@ -42,7 +42,7 @@ h1,h2,h3,h4 {
     
 }
 .li-card {
-    height: 50vh;
+    height: auto;
 }
 .li-card a {
     text-decoration: none;
@@ -61,7 +61,7 @@ h1,h2,h3,h4 {
     width:40vw;
     flex: 1 0 100%;
     margin-right: 5vw;
-    height: 45vh;
+    height: auto;
     justify-content: flex-end;
     border-width: .1em;
     border-color: white;
@@ -150,12 +150,7 @@ p, a, .contact-ul {
 .contact-link {
     font-size: 1em;
 }
-.li-card {
-    height:58vh;
-}
-.card-1, .card-2, .card-3 {
-    height: 55vh;
-}
+
 .card-1 h4, .card-2 h4, .card-3 h4 {
     font-size: 1em;
 }
