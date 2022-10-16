@@ -1,0 +1,169 @@
+body {
+    background-color: black;
+
+}
+
+h1 {
+    font-size: 2em;
+    font-family: griffon, serif;
+    font-weight: 200;
+    font-style: normal;
+}
+h1,h2,h3,h4,p{
+    color:#FFFF;
+}
+h2, h3, h4, p { 
+    font-family: elizeth-condensed, serif;
+    font-weight: 400;
+    font-style: normal;
+}
+h1,h2,h3,h4 {
+    text-align: center;
+}
+.contact-ul {
+    color: #FFFF;
+}
+.contact-li a {
+    text-decoration: none;
+    color: #FFFF;
+}
+.contact-li a:hover{
+    text-decoration: underline;
+}
+.ul-cards {
+    list-style-type: none;
+    overflow: scroll;
+    list-style: none;
+    display:flex;
+    width:100%;
+    margin:auto;
+    padding:0;
+    scroll-behavior: smooth;
+    
+}
+.li-card {
+    height: 50vh;
+}
+.li-card a {
+    text-decoration: none;
+    color: black;
+}
+.card-container {
+    display:flex;
+    background-color: #0000;
+    overflow:hidden;
+    position:relative;
+}
+
+.card-1, .card-2, .card-3 {
+    display:flex;
+    flex-direction: column;
+    width:40vw;
+    flex: 1 0 100%;
+    margin-right: 5vw;
+    height: 45vh;
+    justify-content: flex-end;
+    border-width: .1em;
+    border-color: white;
+    border-style: solid;
+    border-radius: 5%;
+    padding: .3em 1em .3em 1em;
+}
+.li-card :hover {
+    text-decoration: underline;
+}
+
+.arrowButtons {
+    position:absolute;
+    display:flex;
+    flex-direction: row;
+    top:0;
+    bottom: 0;
+    margin:auto;
+    height: 1em;
+    width: 1em;
+    background-color:#FFFF;
+    font-size: 2em;
+    border:none;
+    padding:0;
+    cursor:pointer;
+    opacity:0.5;
+    justify-content: center;
+    align-items: center;
+}
+
+.arrowButtons:hover, .arrowButtons:focus {
+    opacity:1;
+}
+
+#carouselNext {
+    right:0;
+
+}
+
+#carouselPrev {
+    left:0;
+}
+
+@media only screen and (min-width: 600px) and (max-width: 1024px) {
+body {
+    margin-left:5em;
+    margin-right: 5em;
+}
+h1 {
+    font-size: 5em;
+}
+h2,h3,h4 {
+    font-size: 3em;
+}
+p, a, .contact-ul {
+    font-size: 2em;
+}
+.contact-link {
+    font-size: 1em;
+}
+.li-card {
+    height:58vh;
+}
+.card-1, .card-2, .card-3 {
+    height: 55vh;
+}
+.card-1 h4, .card-2 h4, .card-3 h4 {
+    font-size: 1em;
+}
+}
+
+@media only screen and (min-width: 1024px) {
+body {
+    margin-left: 5em;
+    margin-right: 5em;
+}
+h1 {
+    font-size: 5em;
+}
+h2,h3,h4 {
+    font-size: 3em;
+}
+p, a, .contact-ul {
+    font-size: 2em;
+}
+.contact-link {
+    font-size: 1em;
+}
+.li-card {
+    height:58vh;
+}
+.card-1, .card-2, .card-3 {
+    height: 55vh;
+}
+.card-1 h4, .card-2 h4, .card-3 h4 {
+    font-size: 1em;
+}
+.card-image-div img {
+    width: 30vh;
+}
+.card-image {
+    margin:auto;
+    display: block;
+}
+}
